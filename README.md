@@ -77,4 +77,4 @@ IP adresinizi öğrenmek için:
 ### Ağ Bağlantısı Hakkında
 - Telefon ve bilgisayarın **aynı Wi-Fi ağına** bağlı olması zorunludur
 - Okul, yurt veya kurumsal ağlarda cihazlar arası iletişim engellenebilir
--Telefondaki mobil veriyi paylaşarak da yapabilirsiniz.
+- Bu durumda telefonu bilgisayara **hotspot (mobil erişim noktası)** ile bağlayabilirsin.
