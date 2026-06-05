@@ -3,7 +3,9 @@ import * as Speech from 'expo-speech';
 import { useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-const SERVER_URL = 'http://10.70.228.79:5000/predict';
+// Kendi bilgisayarınızın IP adresini buraya yazın
+// IP öğrenmek için: cmd açın -> ipconfig yazın -> IPv4 Address satırındaki IP'yi alın
+const SERVER_URL = 'http://BILGISAYAR_IP:5000/predict';
 const SCAN_INTERVAL_MS = 2000;   // 1500 → 2000: sunucuya daha az yük, cooldown ile uyumlu
 const REQUEST_TIMEOUT_MS = 6000;
 
