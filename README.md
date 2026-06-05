@@ -7,7 +7,7 @@ Görme engelli bireyler için geliştirilmiş, yapay zeka destekli mobil engel t
 
  Proje Hakkında
 
-Uygulama, telefon kamerası aracılığıyla gerçek zamanlı olarak çevredeki engelleri tespit eder ve kullanıcıyı sesli uyarı + ekran bildirimi ile bilgilendirir.
+Uygulama, telefon kamerası aracılığıyla gerçek zamanlı olarak çevredeki engelleri tespit eder ve kullanıcıyı sesli uyarı  ile bilgilendirir.
 
 Klasör Yapısı
 
