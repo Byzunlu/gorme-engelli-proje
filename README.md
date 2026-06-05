@@ -63,3 +63,21 @@ Uygulama telefonunuzda otomatik olarak başlayacaktır.
 - Python / Flask
 - YOLOv8
 - TypeScript
+
+  ## ⚠️ Önemli Not
+
+Uygulamayı çalıştırmadan önce `gorme-engelli-asistan/app/(tabs)/index.tsx` dosyasını açın.
+Aşağıdaki satırı bulun ve `BILGISAYAR_IP` kısmını kendi IP adresinizle değiştirin:
+
+const SERVER_URL = 'http://BILGISAYAR_IP:5000/predict';
+
+IP adresinizi öğrenmek için:
+- Windows: cmd açın -> `ipconfig` yazın -> IPv4 Address satırındaki adresi kullanın
+
+### Ağ Bağlantısı Hakkında
+- Telefon ve bilgisayarın **aynı Wi-Fi ağına** bağlı olması zorunludur
+- Okul, yurt veya kurumsal ağlarda cihazlar arası iletişim engellenebilir
+- Bu durumda telefonu bilgisayara **hotspot (mobil erişim noktası)** ile bağlayın:
+  - Telefonda mobil veriyi açın -> Hotspot'u aktif edin
+  - Bilgisayarı o hotspot'a bağlayın
+  - `ipconfig` ile yeni IP adresini alıp `SERVER_URL` satırını güncelleyin
